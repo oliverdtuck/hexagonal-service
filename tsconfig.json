@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    /* Type Checking */
+    "strict": true,
+    "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+
+    /* Modules */
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "resolveJsonModule": true,
+    "rewriteRelativeImportExtensions": true,
+    "rootDir": "src",
+    "types": ["node"],
+
+    /* Emit */
+    "declaration": true,
+    "declarationMap": true,
+    "noEmitOnError": true,
+    "outDir": "dist",
+    "sourceMap": true,
+
+    /* Interop Constraints */
+    "erasableSyntaxOnly": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+
+    /* Language and Environment */
+    "lib": ["es2025"],
+    "moduleDetection": "force",
+    "target": "es2025",
+
+    /* Completeness */
+    "skipLibCheck": true
+  },
+  "include": ["src"]
+}
